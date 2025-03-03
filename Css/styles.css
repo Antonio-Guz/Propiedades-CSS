@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+header{
+    background-color: bisque;
+}
+.logo{
+    width: 65pxpx;
+}
+header{
+    text-align: center;
+}
+nav li{
+    display: inline;
+    padding: 60px;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
