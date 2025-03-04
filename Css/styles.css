@@ -1,15 +1,14 @@
 body{
     margin: 0;
-    background-color: antiquewhite;
-}
-header{
+    padding: 0;
     background-color: bisque;
 }
 .logo{
-    width: 65pxpx;
+    width: 100px;
 }
 header{
     text-align: center;
+    background-color: #005a9c;
 }
 nav li{
     display: inline;
@@ -24,4 +23,45 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
+}
+
+.main{
+    background-color: #fff;
+    color: #000;
+}
+.welcome{
+    text-align: center;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+}
+.courses{
+    padding: 30px;
+}
+p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+.welcome h1, .courses h2{
+    color: #005a9c;
+}
+.infoCurso img{
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+}
+.infoCurso{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+.image{
+    width: 600px;
+    border: 2px solid black;
+
 }
